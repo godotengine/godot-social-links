@@ -1,10 +1,12 @@
 Godot Engine:
   - name: Download
     url: https://godotengine.org/download
-  - name: Website
-    url: https://godotengine.org
+  - name: Documentation
+    url: https://docs.godotengine.org/
   - name: GitHub
     url: https://github.com/godotengine/godot
+  - name: Website
+    url: https://godotengine.org
   - name: Twitter
     url: https://twitter.com/godotengine
   - name: Bluesky
@@ -19,8 +21,6 @@ Godot Engine:
     url: https://www.tiktok.com/@godotengine_official
   - name: YouTube
     url: https://www.youtube.com/GodotEngineOfficial
-  - name: LinkedIn
-    url: https://www.linkedin.com/products/godot-engine-godot/
   - name: Twitch
     url: https://www.twitch.tv/godotengine_official
   
@@ -29,6 +29,8 @@ Godot Foundation:
     url: https://fund.godotengine.org/
   - name: Website
     url: https://godot.foundation
+  - name: LinkedIn
+    url: https://www.linkedin.com/company/godot-engine/
   - name: Twitter
     url: https://twitter.com/godotfoundation
   - name: Bluesky
@@ -41,10 +43,10 @@ Godot Foundation:
     url: https://www.instagram.com/godotfoundation/
   - name: TikTok
     url: https://www.tiktok.com/@godotfoundation
-  - name: LinkedIn
-    url: https://www.linkedin.com/company/godot-engine/
-
+    
 Godot Asset Store:
+  - name: Old Asset Library
+    url: https://godotengine.org/asset-library
   - name: Twitter
     url: https://twitter.com/godotassetstore
   - name: Bluesky
@@ -59,6 +61,8 @@ Godot Asset Store:
     url: https://www.tiktok.com/@godotassetstore
 
 Godot Conference:
+  - name: Discord
+    url: https://discord.gg/V8wkMUfTTU
   - name: Website
     url: https://conference.godotengine.org
   - name: Twitter
