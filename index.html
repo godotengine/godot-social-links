@@ -1,0 +1,156 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Looking for Godot?</title>
+    <meta name="description" content="" />
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="icon" href="https://godotengine.org/assets/favicon.png" sizes="any">
+		<link rel="icon" href="https://godotengine.org/assets/favicon.svg" type="image/svg+xml">
+
+		<style>
+			html {
+				background-image: url(/images/background.svg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				height: 100%;
+			}
+			body {
+				font-family: Arial, sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+			main {
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 1em;
+				text-align: center;
+				background: #414042;
+				color: white;
+				height: 100%;
+				box-shadow: 0 0 50px -7px black;
+				margin-top: 40px;
+				border-radius: 15px;
+				border: 1px solid #5b5b5b;
+			}
+
+			header {
+				max-width: 450px;
+				margin: 0 auto;
+			}
+			header img {
+				max-width: 100px;
+			}
+			header h1 {
+				text-align: center;
+				font-size: 28px;
+				margin: 14px;
+			}
+			header p {
+				font-size: 20px;
+			}
+
+			summary {
+				font-size: 1.8em;
+				margin: 1em 0;
+				transition: all 0.2s ease-in-out;
+				cursor: pointer;
+				border: 2px solid #7d7d7d;
+				max-width: 340px;
+				margin: 0 auto 30px;
+				padding: 7px;
+				border-radius: 10px;
+				position: relative;
+			}
+			summary:hover {
+				/* blue */
+				border-color: #00a8ff;
+				transform: scale(1.05);
+			}
+			summary .caret {
+				position: absolute;
+  			top: 15px;
+				background-image: url(/images/caret.svg);
+				width: 20px;
+				height: 20px;
+				background-size: contain;
+				right: 10px;
+			}
+			summary .caret.close {
+				background-image: url(/images/close.svg);
+			}
+
+			details ul {
+				list-style: none;
+				padding: 0;
+				margin-top: -10px;
+  			margin-bottom: 20px;
+			}
+			details ul li {
+				font-size: 1.5em;
+  			margin: 16px 0px;
+				margin: 0.5em 0;
+			}
+			details ul li a {
+				text-decoration: none;
+				color: inherit;
+				transition: all 0.2s ease-in-out;
+				padding: 0 10px;
+			}
+			details ul li a:hover {
+				/* blue */
+				color: #00a8ff;
+			}
+			details > summary {
+				list-style: none;
+			}
+			details > summary::-webkit-details-marker {
+				display: none;
+			}
+
+			@media (max-width: 800px) {
+				main {
+					margin: 10px;
+				}
+			}
+		</style>
+  </head>
+  <body>
+		<main>
+			<header>
+				<img src="/images/logo.svg" alt="">
+				<div>
+					<h1>Looking for Godot?</h1>
+					<p>Link collections for: Game Engine, Foundation, Asset Store & Conference</p>
+				</div>
+			</header>
+			
+			<div>
+				{% for section in site.data.links %}
+					<details>
+						<summary>{{ section[0] }} <div class="caret"></div></summary>
+						<ul>
+							{% for link in section[1] %}
+							<li>
+								<a href="{{ link.url }}">{{ link.name }}</a>
+							</li>
+							{% endfor %}
+						</ul>
+					</details>
+				{% endfor %}
+			</div>
+		</main>
+		<script>
+			document.querySelectorAll('summary').forEach((summary) => {
+				summary.addEventListener('click', (e) => {
+					summary.querySelector('.caret').classList.toggle('close');
+				});
+			});
+		</script>
+  </body>
+</html>
