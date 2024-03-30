@@ -7,6 +7,8 @@ Godot Engine:
     url: https://github.com/godotengine/godot
   - name: Website
     url: https://godotengine.org
+  - name: Forum
+    url: https://forum.godotengine.org
   - name: Twitter
     url: https://twitter.com/godotengine
   - name: Bluesky
