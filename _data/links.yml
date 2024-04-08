@@ -9,6 +9,8 @@ Godot Engine:
     url: https://godotengine.org
   - name: Forum
     url: https://forum.godotengine.org
+  - name: Reddit
+    url: https://www.reddit.com/r/godot
   - name: Twitter
     url: https://twitter.com/godotengine
   - name: Bluesky
@@ -63,8 +65,6 @@ Godot Asset Store:
     url: https://www.tiktok.com/@godotassetstore
 
 Godot Conference:
-  - name: Discord
-    url: https://discord.gg/V8wkMUfTTU
   - name: Website
     url: https://conference.godotengine.org
   - name: Twitter
@@ -79,3 +79,5 @@ Godot Conference:
     url: https://www.instagram.com/godotconf/
   - name: TikTok
     url: https://www.tiktok.com/@godotcon
+  - name: Event Discord
+    url: https://discord.gg/V8wkMUfTTU
