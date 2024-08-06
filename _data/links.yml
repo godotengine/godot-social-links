@@ -7,14 +7,20 @@ Godot Engine:
     url: https://github.com/godotengine/godot
   - name: Website
     url: https://godotengine.org
+  - name: Events
+    url: https://lu.ma/godotengine
   - name: Forum
     url: https://forum.godotengine.org
   - name: Reddit
     url: https://www.reddit.com/r/godot
+  - name: Discord
+    url: https://discord.gg/bdcfAYM4W9 
+  - name: YouTube
+    url: https://www.youtube.com/GodotEngineOfficial
+  - name: Twitch
+    url: https://www.twitch.tv/godotengine_official
   - name: Twitter
     url: https://twitter.com/godotengine
-  - name: Bluesky
-    url: https://bsky.app/profile/godotengine.bsky.social
   - name: Mastodon
     url: https://mastodon.gamedev.place/@godotengine/
   - name: Facebook
@@ -23,10 +29,6 @@ Godot Engine:
     url: https://www.instagram.com/godotengine_official/
   - name: TikTok
     url: https://www.tiktok.com/@godotengine_official
-  - name: YouTube
-    url: https://www.youtube.com/GodotEngineOfficial
-  - name: Twitch
-    url: https://www.twitch.tv/godotengine_official
   
 Godot Foundation:
   - name: Donate
@@ -37,8 +39,6 @@ Godot Foundation:
     url: https://www.linkedin.com/company/godot-engine/
   - name: Twitter
     url: https://twitter.com/godotfoundation
-  - name: Bluesky
-    url: https://bsky.app/profile/godotfoundation.bsky.social
   - name: Mastodon
     url: https://mastodon.gamedev.place/@godotfoundation
   - name: Facebook
@@ -49,12 +49,10 @@ Godot Foundation:
     url: https://www.tiktok.com/@godotfoundation
     
 Godot Asset Store:
-  - name: Old Asset Library
+  - name: Asset Library
     url: https://godotengine.org/asset-library
   - name: Twitter
     url: https://twitter.com/godotassetstore
-  - name: Bluesky
-    url: https://bsky.app/profile/godotassetstore.bsky.social
   - name: Mastodon
     url: https://mastodon.gamedev.place/@godotassetstore
   - name: Facebook
@@ -67,10 +65,10 @@ Godot Asset Store:
 Godot Conference:
   - name: Website
     url: https://conference.godotengine.org
+  - name: Event Discord
+    url: https://discord.gg/6KPqmyGDdY
   - name: Twitter
     url: https://twitter.com/GodotCon
-  - name: Bluesky
-    url: https://bsky.app/profile/godotcon.bsky.social
   - name: Mastodon
     url: https://mastodon.gamedev.place/@godotcon
   - name: Facebook
@@ -79,5 +77,3 @@ Godot Conference:
     url: https://www.instagram.com/godotconf/
   - name: TikTok
     url: https://www.tiktok.com/@godotcon
-  - name: Event Discord
-    url: https://discord.gg/6KPqmyGDdY
