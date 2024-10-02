@@ -14,15 +14,17 @@ Godot Engine:
   - name: Reddit
     url: https://www.reddit.com/r/godot
   - name: Discord
-    url: https://discord.gg/bdcfAYM4W9 
+    url: https://discord.gg/godotengine
   - name: YouTube
     url: https://www.youtube.com/GodotEngineOfficial
   - name: Twitch
     url: https://www.twitch.tv/godotengine_official
-  - name: Twitter
-    url: https://twitter.com/godotengine
   - name: Mastodon
     url: https://mastodon.gamedev.place/@godotengine/
+  - name: Bluesky
+    url: https://bsky.app/profile/godotengine.org
+  - name: Twitter
+    url: https://twitter.com/godotengine
   - name: Facebook
     url: https://www.facebook.com/profile.php?id=61555680981424
   - name: Instagram
