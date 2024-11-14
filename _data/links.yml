@@ -43,6 +43,8 @@ Godot Foundation:
     url: https://twitter.com/godotfoundation
   - name: Mastodon
     url: https://mastodon.gamedev.place/@godotfoundation
+  - name: Bluesky
+    url: https://bsky.app/profile/godot.foundation
   - name: Facebook
     url: https://www.facebook.com/profile.php?id=61555147722885
   - name: Instagram
@@ -57,6 +59,8 @@ Godot Asset Store:
     url: https://twitter.com/godotassetstore
   - name: Mastodon
     url: https://mastodon.gamedev.place/@godotassetstore
+  - name: Bluesky
+    url: https://bsky.app/profile/godotassetstore.bsky.social
   - name: Facebook
     url: https://www.facebook.com/profile.php?id=61555189780969
   - name: Instagram
@@ -73,6 +77,8 @@ Godot Conference:
     url: https://twitter.com/GodotCon
   - name: Mastodon
     url: https://mastodon.gamedev.place/@godotcon
+  - name: Bluesky
+    url: https://bsky.app/profile/godotcon.bsky.social
   - name: Facebook
     url: https://www.facebook.com/profile.php?id=61555176641842
   - name: Instagram
