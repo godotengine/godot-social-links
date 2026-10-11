@@ -53,6 +53,8 @@ Godot Foundation:
     url: https://www.tiktok.com/@godotfoundation
     
 Godot Asset Store:
+  - name: Asset Store
+    url: https://store.godotengine.org/
   - name: Asset Library
     url: https://godotengine.org/asset-library
   - name: Twitter
