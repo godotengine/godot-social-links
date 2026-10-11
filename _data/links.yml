@@ -73,12 +73,8 @@ Godot Asset Store:
 Godot Conference:
   - name: Website
     url: https://conference.godotengine.org
-  - name: Event Discord
-    url: https://discord.gg/6KPqmyGDdY
   - name: Twitter
     url: https://twitter.com/GodotCon
-  - name: Mastodon
-    url: https://mastodon.gamedev.place/@godotcon
   - name: Bluesky
     url: https://bsky.app/profile/godotcon.bsky.social
   - name: Facebook
